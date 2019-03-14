@@ -3,7 +3,14 @@
 
 
 ## Introduction
+Imagine that you've got a spreadsheet full of data, but it's pretty messy. The person and company names all have different capitalization, the dates are in all kinds of different formats, there are longer chunks of text that you need to extract information from. Some of the data is missing or has invalid values.
+
+One of the things programming in Python will allow you to do is to import a file like that, loop over the data and automate the cleaning of it so in the future when you get similar data you can just run it through the same (or a similar) program to clean it up really quickly.
+
+By the end of next week, you're going to be able to import a file, loop over all of the data, clean it up and then save it back to a file again. Over the next few lessons we'll be introducing the key concepts you'll need to be able to do that.
+
 In this lesson, we'll introduce a couple of key concepts that the rest of your programming will depend upon - **variables** (for storing information) and **data types** (for working differently with different types of data).
+
 
 ## Objectives
 You will be able to:
@@ -68,7 +75,7 @@ Every variable has a data type associated with it in Python. You can find the ty
 type(first_name)
 ```
 
-As you can see if you run the cell above, the data type for the first_name variable is "str" which is short for a string.
+As you can see if you run the cell above, the data type for the first_name variable is "str" which is short for "string".
 
 The **string** data type is one of the most common and flexible data types. When you import data into Python, it'll often start off as a string. If something can be represented by a set of characters, it can have a data type of string. Pretty much the only thing you can't store in a string is a binary file - something like an image or a video.
 
