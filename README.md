@@ -108,6 +108,6 @@ Some of the most common, simple data types in Python are:
 
 In this lesson we introduced the concept of variables and data types. We also provided a summary of some of the more popular, simple Python data types *(we'll talk about more complex data types like arrays, sets, lists and collections later)*. We also looked at the use cases for those popular variables.
 
-In the next lesson we're going to ask you to perform some data cleaning using what we've taught you about data types and we'll also ask you to solve some problems we've not yet provided the answer to!
+In the next lesson we're going to look at some common data cleaning tasks and how we can perform them on variables.
 
 
